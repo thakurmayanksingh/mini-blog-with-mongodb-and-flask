@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Blog</title>
+</head>
+<body>
+    <h2 style="align-content: center;">Mini Blog for all.</h2>
+    <p>Hey! Welcome to the blog enter your name and your thoughts below then submit it. Also, you can view thoughts
+        of other users.
+    </p>
+    <form method="POST" action="/">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Name" required>
+        <br><br>
+        <label for="blog_content">Thoughts:</label>
+        <br>
+        <textarea id="blog_content" name="blog_content" style="margin-left: auto;" rows="4" cols="50" placeholder="Write your thoughts here!" required></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <p><a href="/view_blogs">View All Blogs</a></p>
+</body>
+</html>
